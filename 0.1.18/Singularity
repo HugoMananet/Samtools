@@ -31,7 +31,7 @@ From: phusion/baseimage:0.11
 	wget https://sourceforge.net/projects/samtools/files/samtools/0.1.18/samtools-0.1.18.tar.bz2 && mv samtools-0.1.18.tar.bz2 /opt/
 
 	cd /opt/ && tar xjvf samtools-0.1.18.tar.bz2
-	cd /opt/samtools-0.1.18/ && make && make install
+	cd /opt/samtools-0.1.18/ && make 
 	cd /opt/ && rm samtools-0.1.18.tar.bz2
 
 %environment
