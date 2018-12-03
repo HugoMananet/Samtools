@@ -5,8 +5,8 @@ Bootstrap: docker
 From: phusion/baseimage:0.11
 
 %label
+
 	MAINTAINER Hugo Mananet
-	VERSION 2.3.6
 
 
 %post
