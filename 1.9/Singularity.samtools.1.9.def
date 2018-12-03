@@ -10,6 +10,14 @@ From: phusion/baseimage:0.11
 
 
 %post
+
+
+	mkdir /soft
+	mkdir /work
+	mkdir /user1
+	mkdir /user2
+	mkdir /tmp3
+	
 	apt-get -y update
 	apt-get -y install build-essential \
 	wget \
